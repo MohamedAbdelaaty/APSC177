@@ -2,17 +2,17 @@
 #include <cmath>				// use of math functions like sine/cosine/tan etc
 #include <iomanip>				// Input/output manipulator
 
-using namespace std;			// use standard namespace by default
+using namespace std;				// use standard namespace by default
 
-const double PI = acos(-1.0);	// constant variable to store PI
+const double PI = acos(-1.0);			// constant variable to store PI
 
 // program entry point
 int main() {
 	// step one: declare needed variables
-	double angleInDegreesOne;		// variable to store the first user input for the first angle in degrees
-	double angleInDegreesTwo;		// variable to store the second user input for the second angle in degrees
-	double angleInRadOne;			// variable to store the conversion for the first angle in radians
-	double angleInRadTwo;			// variable to store the conversion for the second angle in radians
+	double angleInDegreesOne;			// variable to store the first user input for the first angle in degrees
+	double angleInDegreesTwo;			// variable to store the second user input for the second angle in degrees
+	double angleInRadOne;				// variable to store the conversion for the first angle in radians
+	double angleInRadTwo;				// variable to store the conversion for the second angle in radians
 	double sineOne;					// sine for the first angle in radians defined later
 	double sineTwo;					// sine for the second angle in radians defined later
 	double cosineOne;				// cosine for the first angle in radians defined later
